@@ -1,0 +1,36 @@
+div {
+  box-sizing: border-box;
+}
+
+.body {
+  display  : flex;
+  flex-wrap: wrap;
+  margin   : 50px auto;
+
+  width     : 500px;
+  height    : 500px;
+  background: #CCC;
+}
+
+.body-item {
+  width        : 50px;
+  height       : 50px;
+  border-right : 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.snake-head {
+  background: red;
+}
+
+.snake-body {
+  background: green;
+}
+
+.snake-food {
+  background: yellow;
+}
+
+.snake-fail {
+  background: #000;
+}
